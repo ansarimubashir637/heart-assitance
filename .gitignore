@@ -1,0 +1,62 @@
+heart_risk_model/records100/*
+heart_risk_model/ecg_model.h5
+heart_risk_model/heart-dataset.csv
+heart_risk_model/model.pkl
+heart_risk_model/ptbxl_database.csv
+
+# OSX
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+Pods/
+!/Pods/__offline_mirrors_hermes__
+!/Pods/__offline_mirrors_jsc__
+
+# Android/IJ
+*.iml
+.idea
+.gradle
+local.properties
+.navigation/
+captures/
+.externalNativeBuild
+
+# node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+.node_repl_history
+
+# BUCK
+buck-out/
+\\.buckd/
+android/app/libs
+android/keystores/debug.keystore
+
+# Metro
+.metro-health-check*
+
+# Hermes
+/packages/react-native/sdks/download
+/packages/react-native/sdks/hermes
+/packages/react-native/sdks/hermesc
+/packages/react-native/sdks/hermes-engine/hermes-engine-from-local-source-dir.tar.gz
